@@ -41,6 +41,12 @@ class HomeActivity : AppCompatActivity() {
 
         }
 
+        binding.fragmentprofilebtn.setOnClickListener{
+
+            replaceFragment(FragmentProfile())
+
+        }
+
         }
 
     private fun replaceFragment(fragment: Fragment) {

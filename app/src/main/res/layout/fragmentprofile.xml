@@ -1,16 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEmail"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Profile"
-        android:textStyle="bold"
-        android:textSize="30dp"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="50dp"
-        android:textColor="@color/black"
-        />
-</RelativeLayout>
+        android:text="Email"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="center"
+        android:textColor="#CFCFCF"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="8dp"
+        android:textColor="#CFCFCF"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Nama"
+        android:textAlignment="center"
+        android:textColor="#CFCFCF"
+        android:textSize="18sp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputKelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelas"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="#CFCFCF"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="250dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Logout"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="60dp"/>
+
+
+</LinearLayout>

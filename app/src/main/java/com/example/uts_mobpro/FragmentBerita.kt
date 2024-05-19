@@ -43,8 +43,8 @@ class FragmentBerita : Fragment() {
         arrayList.add(
             DataBerita(
                 imageResId = R.drawable.ic_action_name,
-                title = "Berita 1",
-                desc = "Deskripsi berita 1."
+                title = "3 Faktor yang Pengaruhi Membaiknya Tren Wisata di Dunia hingga Akhir 2024",
+                desc = "KOMPAS.com - Mastercard Economics Institute (MEI) mencatat perkembangan pesat dunia pariwisata hingga akhir 2024 mendatang. Melalui laporan bertajuk “Travel Trends 2024: Breaking Boundaries” perkembangan industri pariwisata ini terjadi di setidaknya 74 negara, termasuk 13 negara di kawasan Asia Pasifik."
             )
         )
         arrayList.add(
@@ -59,6 +59,49 @@ class FragmentBerita : Fragment() {
                 imageResId = R.drawable.ic_action_name,
                 title = "Berita 3",
                 desc = "Deskripsi berita 3."
+            )
+        )
+
+        arrayList.add(
+            DataBerita(
+                imageResId = R.drawable.ic_action_name,
+                title = "Berita 4",
+                desc = "Deskripsi berita 4."
+            )
+        )
+        arrayList.add(
+            DataBerita(
+                imageResId = R.drawable.ic_action_name,
+                title = "Berita 5",
+                desc = "Deskripsi berita 5."
+            )
+        )
+        arrayList.add(
+            DataBerita(
+                imageResId = R.drawable.ic_action_name,
+                title = "Berita 6",
+                desc = "Deskripsi berita 6."
+            )
+        )
+        arrayList.add(
+            DataBerita(
+                imageResId = R.drawable.ic_action_name,
+                title = "Berita 7",
+                desc = "Deskripsi berita 7."
+            )
+        )
+        arrayList.add(
+            DataBerita(
+                imageResId = R.drawable.ic_action_name,
+                title = "Berita 8",
+                desc = "Deskripsi berita 8."
+            )
+        )
+        arrayList.add(
+            DataBerita(
+                imageResId = R.drawable.ic_action_name,
+                title = "Berita 8",
+                desc = "Deskripsi berita 8."
             )
         )
 
