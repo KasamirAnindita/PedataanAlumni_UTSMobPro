@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="wrap_content"
+        android:layout_height="600dp"
+        android:id="@+id/fragmentContainer" />
+
+
+    <Button
+        android:id="@+id/fragmenthomebtn"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="3dp"
+        android:backgroundTint="@color/black"
+        android:text="Home"
+        android:textSize="20dp"
+        app:cornerRadius="0dp" />
+
+    <Button
+        android:id="@+id/fragmentberitabtn"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginRight="114dp"
+        android:layout_marginBottom="3dp"
+        android:backgroundTint="@color/black"
+        android:text="Berita"
+        android:textSize="20dp"
+        app:cornerRadius="0dp" />
+
+    <Button
+        android:id="@+id/fragmentprofilebtn"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="3dp"
+        android:backgroundTint="@color/black"
+        android:text="Profile"
+        android:textSize="20dp"
+        app:cornerRadius="0dp" />
+
+
+
+
+    <!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="132dp"-->
+<!--        android:layout_height="102dp"-->
+<!--        android:layout_marginTop="48dp"-->
+<!--        android:fontFamily="@font/cambay_bold"-->
+<!--        android:text="Tentang Aplikasi"-->
+<!--        android:textSize="34sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.084"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="314dp"-->
+<!--        android:layout_height="164dp"-->
+<!--        android:layout_marginTop="164dp"-->
+<!--        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer volutpat pulvinar elit, fringilla consequat erat viverra ac. Nunc congue pulvinar odio quis egestas. Curabitur suscipit massa "-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.126"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+</RelativeLayout>
