@@ -5,9 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ListView
-import android.widget.Toast
 import androidx.fragment.app.Fragment
-import com.example.uts_mobpro.DataBerita
 import com.example.uts_mobpro.adapter.AdapterListBerita
 
 class FragmentBerita : Fragment() {
@@ -29,11 +27,6 @@ class FragmentBerita : Fragment() {
         val newsList = buatData()
         adapter = AdapterListBerita(requireContext(), newsList)
         listView.adapter = adapter
-
-        listView.setOnItemClickListener { parent, view, position, id ->
-            val data = newsList[position]
-            Toast.makeText(requireContext(), "Judul Berita ${data.title}", Toast.LENGTH_SHORT).show()
-        }
     }
 
     private fun buatData(): List<DataBerita> {
@@ -50,8 +43,8 @@ class FragmentBerita : Fragment() {
         arrayList.add(
             DataBerita(
                 imageResId = R.drawable.ic_action_name,
-                title = "Berita 2",
-                desc = "Deskripsi berita 2."
+                title = "Bali Masuk Daftar Destinasi Wisata Musim Panas 2024 Paling Menarik\n",
+                desc = "KOMPAS.com - Bali masuk daftar 10 destinasi wisata musim panas paling menarik sepanjang Juni-Agustus 2024 mendatang. Daftar tersebut dirilis oleh Mastercard Economics Institute (MEI) berdasarkan data pemesanan penerbangan."
             )
         )
         arrayList.add(
