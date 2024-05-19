@@ -50,30 +50,35 @@ class FragmentBerita : Fragment() {
         arrayList.add(
             DataBerita(
                 imageResId = R.drawable.ic_action_name,
-                title = "Berita 3",
-                desc = "Deskripsi berita 3."
+                title = "Comeback Girlgroup IVE dengan Judul Lagu 'HEYA'",
+                desc = "IVE tampil berbeda pada musik video terbarunya berjudul Heya. Para member mengeksplorasi gaya mereka yang berbeda pada karya terbarunya ini.\n" +
+                        "Lagu ini masuk ke dalam album terbarunya, IVE Switch. "
             )
         )
 
         arrayList.add(
             DataBerita(
                 imageResId = R.drawable.ic_action_name,
-                title = "Berita 4",
-                desc = "Deskripsi berita 4."
+                title = "Ahn Yujin IVE dan Kim Soo Hyun di Balik Layar Baeksang Arts Award 2024",
+                desc = "KPOPCHART.NET - Baeksang Arts Award 2024 menjadi saksi pertemuan dua bintang Korea Selatan dari generasi berbeda, Ahn Yujin IVE dan Kim Soo Hyun.\\n\" +\n" +
+                        "                        \"\\n\" +\n" +
+                        "                        \"Momen kebersamaan mereka di atas panggung saat menerima penghargaan popularitas memang terlihat hangat.\\n\" +\n" +
+                        "                        \"\\n\" +\n" +
+                        "                        \"Namun, siapa sangka di balik layar, mereka justru mengalami momen canggung."
             )
         )
         arrayList.add(
             DataBerita(
                 imageResId = R.drawable.ic_action_name,
-                title = "Berita 5",
-                desc = "Deskripsi berita 5."
+                title = "Pesawat Jatuh di BSD Serpong, Satu Orang Diduga Awak Pesawat Tergeletak",
+                desc = "TANGERANG SELATAN, KOMPAS.com - Sebuah pesawat latih jatuh di Jalan BSD Grand Boulevard, tepatnya di seberang McDonalds Cilenggang, Serpong, Tangerang Selatan, Banten pada Minggu (19/5/2024) siang.\n"
             )
         )
         arrayList.add(
             DataBerita(
                 imageResId = R.drawable.ic_action_name,
-                title = "Berita 6",
-                desc = "Deskripsi berita 6."
+                title = "Pesawat Jatuh di BSD Serpong, Satu Orang Diduga Awak Pesawat Tergeletak",
+                desc = "TANGERANG SELATAN, KOMPAS.com - Sebuah pesawat latih jatuh di Jalan BSD Grand Boulevard, tepatnya di seberang McDonalds Cilenggang, Serpong, Tangerang Selatan, Banten pada Minggu (19/5/2024) siang.\n"
             )
         )
         arrayList.add(

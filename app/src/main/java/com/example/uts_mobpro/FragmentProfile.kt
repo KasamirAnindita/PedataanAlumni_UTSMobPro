@@ -4,12 +4,10 @@ import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.provider.ContactsContract.Profile
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.uts_mobpro.databinding.ActivityMainBinding
 import com.example.uts_mobpro.databinding.FragmentprofileBinding
 
 
@@ -47,7 +45,7 @@ class FragmentProfile : Fragment() {
             // Clear SharedPreferences and navigate to login page
             sharedPreferences.edit().clear().apply()
             // Navigate to login page
-            val intent = Intent(requireContext(), HomeActivity::class.java)
+            val intent = Intent(requireContext(), MainActivity::class.java)
             startActivity(intent)
             requireActivity().finish() // Optional: Finish current activity
         }

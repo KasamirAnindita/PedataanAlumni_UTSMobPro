@@ -1,20 +1,10 @@
 package com.example.uts_mobpro
 
-import android.content.Intent
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.widget.Button
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import androidx.viewbinding.ViewBinding
-import com.example.uts_mobpro.databinding.ActivityMainBinding
-import android.view.View
 import androidx.fragment.app.Fragment
-import com.example.uts_mobpro.FragmentHome
+import androidx.viewbinding.ViewBinding
 import com.example.uts_mobpro.databinding.ActivityHomeBinding
-import com.example.uts_mobpro.FragmentHome as FragmentHome1
 
 
 private val ViewBinding.fragmenthomebtn: Any
@@ -47,7 +37,7 @@ class HomeActivity : AppCompatActivity() {
 
         }
 
-        }
+    }
 
     private fun replaceFragment(fragment: Fragment) {
 
@@ -60,14 +50,3 @@ class HomeActivity : AppCompatActivity() {
 
     }
 }
-
-
-//    enableEdgeToEdge()
-//        setContentView(R.layout.activity_main)
-//
-//        val splashLogo = findViewById<Button>(R.id.btn_login)
-//        splashLogo.setOnClickListener {
-//            // Tindakan yang ingin dilakukan saat gambar diklik
-//            // Misalnya, pindah ke aktivitas lain
-//            val intent = Intent(this, HomeActivity::class.java)
-//            startActivity(intent)
